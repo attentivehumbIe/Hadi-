@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт для Хади</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header-title">Для Хади с любовью</h1>
+        <p class="header-subtitle">Ты — моя звезда на этом свете!</p>
+        <button id="surpriseBtn" class="btn surprise-btn">Нажми на меня для сюрприза</button>
+    </header>
+
+    <main>
+        <section class="cat-section">
+            <h2>Галерея котиков</h2>
+            <div class="cat-grid">
+                <!-- Картинки котиков будут вставляться сюда через JS -->
+            </div>
+        </section>
+
+        <section class="interactive-section">
+            <h2>Приятные сюрпризы</h2>
+            <button id="revealBtn" class="btn reveal-btn">Показать секретное послание</button>
+            <div class="hidden-messages">
+                <p class="hidden-message">Ты — лучшая!</p>
+                <p class="hidden-message">Я всегда рядом с тобой.</p>
+                <p class="hidden-message">Любовь моя — бесконечна.</p>
+            </div>
+        </section>
+    </main>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span id="closePopup" class="close-btn">&times;</span>
+            <h2>Сюрприз!</h2>
+            <p>Ты — моя жизнь, и я горжусь тем, что ты есть у меня!</p>
+            <img src="https://cdn2.thecatapi.com/images/1.jpeg" alt="Котик" class="popup-img">
+        </div>
+    </div>
+
+    <footer>
+        <p>С любовью, твой Кирюша</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
